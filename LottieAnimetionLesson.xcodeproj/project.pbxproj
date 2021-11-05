@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B8795BDD753D523B045DED /* Pods_LottieAnimetionLesson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659779198415E22BC47017D1 /* Pods_LottieAnimetionLesson.framework */; };
 		54E10F70273564C900A2019E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10F6F273564C900A2019E /* AppDelegate.swift */; };
 		54E10F72273564C900A2019E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10F71273564C900A2019E /* SceneDelegate.swift */; };
 		54E10F74273564C900A2019E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10F73273564C900A2019E /* ViewController.swift */; };
 		54E10F77273564C900A2019E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E10F75273564C900A2019E /* Main.storyboard */; };
 		54E10F79273564CB00A2019E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E10F78273564CB00A2019E /* Assets.xcassets */; };
 		54E10F7C273564CB00A2019E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E10F7A273564CB00A2019E /* LaunchScreen.storyboard */; };
+		54E10F84273565C900A2019E /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 54E10F83273565C900A2019E /* 1.json */; };
+		54E10F862735737400A2019E /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 54E10F852735737400A2019E /* 2.json */; };
+		54E10F88273573B500A2019E /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = 54E10F87273573B500A2019E /* 6.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,12 @@
 		54E10F78273564CB00A2019E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54E10F7B273564CB00A2019E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54E10F7D273564CB00A2019E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E10F83273565C900A2019E /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		54E10F852735737400A2019E /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		54E10F87273573B500A2019E /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6.json; sourceTree = "<group>"; };
+		659779198415E22BC47017D1 /* Pods_LottieAnimetionLesson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimetionLesson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		868FA76C38F65A26D3638BC2 /* Pods-LottieAnimetionLesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimetionLesson.release.xcconfig"; path = "Target Support Files/Pods-LottieAnimetionLesson/Pods-LottieAnimetionLesson.release.xcconfig"; sourceTree = "<group>"; };
+		96CA4CC5693F9D189E248B9A /* Pods-LottieAnimetionLesson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimetionLesson.debug.xcconfig"; path = "Target Support Files/Pods-LottieAnimetionLesson/Pods-LottieAnimetionLesson.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B8795BDD753D523B045DED /* Pods_LottieAnimetionLesson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				54E10F6E273564C900A2019E /* LottieAnimetionLesson */,
 				54E10F6D273564C900A2019E /* Products */,
+				C80316E6AF9CE0D0F60149F1 /* Pods */,
+				DE3267112253BA7FCA7EC625 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +76,28 @@
 				54E10F78273564CB00A2019E /* Assets.xcassets */,
 				54E10F7A273564CB00A2019E /* LaunchScreen.storyboard */,
 				54E10F7D273564CB00A2019E /* Info.plist */,
+				54E10F83273565C900A2019E /* 1.json */,
+				54E10F852735737400A2019E /* 2.json */,
+				54E10F87273573B500A2019E /* 6.json */,
 			);
 			path = LottieAnimetionLesson;
+			sourceTree = "<group>";
+		};
+		C80316E6AF9CE0D0F60149F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96CA4CC5693F9D189E248B9A /* Pods-LottieAnimetionLesson.debug.xcconfig */,
+				868FA76C38F65A26D3638BC2 /* Pods-LottieAnimetionLesson.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE3267112253BA7FCA7EC625 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				659779198415E22BC47017D1 /* Pods_LottieAnimetionLesson.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54E10F80273564CB00A2019E /* Build configuration list for PBXNativeTarget "LottieAnimetionLesson" */;
 			buildPhases = (
+				9F424118F78A24431BFF0186 /* [CP] Check Pods Manifest.lock */,
 				54E10F68273564C900A2019E /* Sources */,
 				54E10F69273564C900A2019E /* Frameworks */,
 				54E10F6A273564C900A2019E /* Resources */,
+				95E9890378C4B0C849EE4C7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +160,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E10F88273573B500A2019E /* 6.json in Resources */,
+				54E10F862735737400A2019E /* 2.json in Resources */,
 				54E10F7C273564CB00A2019E /* LaunchScreen.storyboard in Resources */,
 				54E10F79273564CB00A2019E /* Assets.xcassets in Resources */,
 				54E10F77273564C900A2019E /* Main.storyboard in Resources */,
+				54E10F84273565C900A2019E /* 1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95E9890378C4B0C849EE4C7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieAnimetionLesson/Pods-LottieAnimetionLesson-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieAnimetionLesson/Pods-LottieAnimetionLesson-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LottieAnimetionLesson/Pods-LottieAnimetionLesson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F424118F78A24431BFF0186 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieAnimetionLesson-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		54E10F68273564C900A2019E /* Sources */ = {
@@ -284,6 +364,7 @@
 		};
 		54E10F81273564CB00A2019E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96CA4CC5693F9D189E248B9A /* Pods-LottieAnimetionLesson.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +375,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,12 +387,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		54E10F82273564CB00A2019E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868FA76C38F65A26D3638BC2 /* Pods-LottieAnimetionLesson.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +404,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +416,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
