@@ -17,6 +17,9 @@
 		54E10F84273565C900A2019E /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 54E10F83273565C900A2019E /* 1.json */; };
 		54E10F862735737400A2019E /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 54E10F852735737400A2019E /* 2.json */; };
 		54E10F88273573B500A2019E /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = 54E10F87273573B500A2019E /* 6.json */; };
+		54E10F8A2736C02600A2019E /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 54E10F892736C02600A2019E /* 3.json */; };
+		54E10F8C2736C04A00A2019E /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 54E10F8B2736C04A00A2019E /* 4.json */; };
+		54E10F8E2736C06E00A2019E /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = 54E10F8D2736C06E00A2019E /* 5.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		54E10F83273565C900A2019E /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
 		54E10F852735737400A2019E /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
 		54E10F87273573B500A2019E /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6.json; sourceTree = "<group>"; };
+		54E10F892736C02600A2019E /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		54E10F8B2736C04A00A2019E /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
+		54E10F8D2736C06E00A2019E /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
 		659779198415E22BC47017D1 /* Pods_LottieAnimetionLesson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimetionLesson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		868FA76C38F65A26D3638BC2 /* Pods-LottieAnimetionLesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimetionLesson.release.xcconfig"; path = "Target Support Files/Pods-LottieAnimetionLesson/Pods-LottieAnimetionLesson.release.xcconfig"; sourceTree = "<group>"; };
 		96CA4CC5693F9D189E248B9A /* Pods-LottieAnimetionLesson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimetionLesson.debug.xcconfig"; path = "Target Support Files/Pods-LottieAnimetionLesson/Pods-LottieAnimetionLesson.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +84,9 @@
 				54E10F7D273564CB00A2019E /* Info.plist */,
 				54E10F83273565C900A2019E /* 1.json */,
 				54E10F852735737400A2019E /* 2.json */,
+				54E10F892736C02600A2019E /* 3.json */,
+				54E10F8B2736C04A00A2019E /* 4.json */,
+				54E10F8D2736C06E00A2019E /* 5.json */,
 				54E10F87273573B500A2019E /* 6.json */,
 			);
 			path = LottieAnimetionLesson;
@@ -162,7 +171,10 @@
 			files = (
 				54E10F88273573B500A2019E /* 6.json in Resources */,
 				54E10F862735737400A2019E /* 2.json in Resources */,
+				54E10F8C2736C04A00A2019E /* 4.json in Resources */,
 				54E10F7C273564CB00A2019E /* LaunchScreen.storyboard in Resources */,
+				54E10F8A2736C02600A2019E /* 3.json in Resources */,
+				54E10F8E2736C06E00A2019E /* 5.json in Resources */,
 				54E10F79273564CB00A2019E /* Assets.xcassets in Resources */,
 				54E10F77273564C900A2019E /* Main.storyboard in Resources */,
 				54E10F84273565C900A2019E /* 1.json in Resources */,
